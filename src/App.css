@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.sorange{
+  background-color: orange;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(./images/background2.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.width{
+  width: 54vw;
+  border-radius: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.jordan{
+  height: 100vh;
+  width: 200px;
+
+  background-color: blue;
+  position: fixed;
+  top: 50vh;
+  z-index: 2;
 }
 
-.App-link {
-  color: #61dafb;
+.kobeBack{
+  background-image: url(./images/kobeBack.webp);
+  height: 75vh;
+  width: 75vw;
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+  text-align: justify;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-color{
+  border-radius: 15px;
+  color: rgb(196, 190, 190);
+  font-family: cursive;
+}
+
+.top-down{
+  margin-top: 50vh;
+  font-family: cursive;
+  color: #3d3d3d;
+  text-shadow: 4px 4px 4px ;
+}
+
+.logo{
+  height: 3em;
+}
+
+.height{
+  min-height: 26.2em;
+}
+
+.button-position{
+  position: relative;
+  top: 100%;
+  margin-top: 7.5%;
+  margin-left: 77%;
+}
+
+.button-position2{
+  position: relative;
+  top: 100%;
+  margin-top: 15%;
+  margin-left: 77%;
+}
+
+.button-position3{
+  position: relative;
+  top: 100%;
+  margin-top: 19%;
+  margin-left: 77%;
+}
+
+.cursive{
+  font-family: cursive;
 }
