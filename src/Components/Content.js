@@ -3,6 +3,9 @@ import iverson from '../images/iverson.jpg'
 import kobe from '../images/21-1.jpg'
 import kobe2 from '../images/40-1.jpg'
 import kobe3 from '../images/107-1.jpg'
+import kobe4 from '../images/kobe4.jpg'
+import kobe5 from '../images/kobe5.jpg'
+import kobe6 from '../images/kobe6.jpg'
 import kobeBack from '../images/kobeBack.webp'
 import michael_jordan from '../images/michael_jordan.jpg'
 
@@ -33,6 +36,8 @@ function Content(props) {
 
         </div>
 
+        <div className="gambiarra" />
+
         <div class="row top-down justify-content-center">
             <h1 class="text-center">Kobe Bryant's memorial</h1>
         </div>
@@ -44,7 +49,7 @@ function Content(props) {
             <div class="card-body">
                 {/* <h5 class="card-title">Card title</h5> */}
                 <blockquote class="blockquote mb-0">
-                            <p class="cursive text-secondary"> "If you do not believe in yourself no one will do it for you."</p>
+                            <p class="cursive text-secondary"> "Opportunity isn't a door that opens, it's a door that you build"</p>
                             <footer class="blockquote-footer text-right">Kobe Bryant</footer>
                         </blockquote>
             </div>
@@ -58,7 +63,7 @@ function Content(props) {
             <div class="card-body">
                 {/* <h5 class="card-title">Card title</h5> */}
                 <blockquote class="blockquote mb-0">
-                            <p class="cursive text-secondary">“There are no limitations to the mind except those we acknowledge.”</p>
+                            <p class="cursive text-secondary">“The only person who is unable to learn is the lazy.”</p>
                             <footer class="blockquote-footer text-right">Napoleon Hill</footer>
                         </blockquote>
             </div>
@@ -69,6 +74,53 @@ function Content(props) {
 
             <div class="card col-md-4">
             <img src={kobe3} class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+                {/* <h5 class="card-title">Card title</h5> */}
+                <blockquote class="blockquote mb-0">
+                            <p class="cursive text-secondary">"The life is a like a chess game, the opponent is the time" </p>
+                            <footer class="blockquote-footer text-right">Napoleon Hill</footer>
+                        </blockquote>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+            </div>
+          
+        </div>
+        </div>
+
+        <div class="row my-5">
+        <div class="card-group">
+            <div class="card col-md-4">
+            <img src={kobe6} class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+                {/* <h5 class="card-title">Card title</h5> */}
+                <blockquote class="blockquote mb-0">
+                            <p class="cursive text-secondary"> "If you do not believe in yourself no one will do it for you."</p>
+                            <footer class="blockquote-footer text-right">Kobe Bryant</footer>
+                        </blockquote>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+            </div>
+
+            <div class="card col-md-4">
+            <img src={kobe4} class="card-img-top img-fluid" alt="..."/>
+            <div class="card-body">
+                {/* <h5 class="card-title">Card title</h5> */}
+                <blockquote class="blockquote mb-0">
+                            <p class="cursive text-secondary">“There are no limitations to the mind except those we acknowledge.”</p>
+                            <footer class="blockquote-footer text-right">Napoleon Hill</footer>
+                        </blockquote>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+            </div>
+
+            <div class="card col-md-4">
+            <img src={kobe5} class="card-img-top img-fluid" alt="..."/>
             <div class="card-body">
                 {/* <h5 class="card-title">Card title</h5> */}
                 <blockquote class="blockquote mb-0">

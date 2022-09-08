@@ -66,8 +66,8 @@ function Footer() {
 
   
   <div class="text-center text-dark p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}>
-    © 2020 Copyright:
-    <a class="text-dark" href="#">Site dos barbosão do basquete</a>
+    © 2020 Copyright: 
+    <a class="text-dark" href="#">Kobe's Memorial</a>
   </div>
 
 </footer>
