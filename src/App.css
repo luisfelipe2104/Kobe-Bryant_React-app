@@ -86,7 +86,7 @@
 
 .gambiarra{
   position: absolute;
-  top: 100vh;
+  top: 100%;
   /* border: 2px solid black; */
   width: 70%;
 }
